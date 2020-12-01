@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Nome dos Lugares CS:GO</title>
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <main class="content">
+        <img
+          src="./public/img/logo.png"
+          alt="CS:GO Spots Quiz"
+          class="quizImg"
+        />
+        <div class="selects-area">
+          <select name="mapSelector" id="mapSelector">
+            <option value="" disabled selected>Selecione um mapa</option>
+            <option value="0">Dust II</option>
+            <option value="1">Mirage</option>
+            <option value="2">Cache</option>
+            <!-- <option value="...">___</option> -->
+          </select>
+          <select name="diffSelector" id="diffSelector">
+            <option value="" disabled selected>
+              Selecione uma dificuldade
+            </option>
+            <option value="0">Fácil</option>
+            <option value="1">Normal</option>
+            <option value="2">Difícil</option>
+          </select>
+        </div>
+
+        <button class="playButton">Jogar</button>
+        <div class="socialMedias">
+          <a
+            href="https://github.com/ggonpereira/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="https://simpleicons.org/icons/github.svg"
+              alt="GitHub"
+              title="Visite meu GitHub!"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/Gabriel-Gonçalves-Pereira/"
+            target="_blank"
+            rel="noopener"
+            title="Visite meu LinkedIn!"
+          >
+            <img
+              src="https://simpleicons.org/icons/linkedin.svg"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
+      </main>
+    </div>
+
+    <script src="./public/scripts/getValues.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- <script src="./public/scripts/script.js" defer></script> -->
+  </body>
+</html>
