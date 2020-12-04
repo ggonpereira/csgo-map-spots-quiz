@@ -1,7 +1,3 @@
-# csgo-map-spots-quiz
-
-A project created using JavaScript, HTML and CSS. Basically it's a quiz based in the game "Counter Strike: Global Offensive", the player needs to guess the specific position name of a map in the game!
-
 <h4 align="center">
 <img src="https://raw.githubusercontent.com/ggonpereira/csgo-map-spots-quiz/main/public/img/logo.png" width="40%" /><br>
  <h1 align="center">Quiz CS:GO Maps Spots 🤗</h1> 
@@ -25,7 +21,8 @@ A project created using JavaScript, HTML and CSS. Basically it's a quiz based in
 <h2>Preview 💻📱</h2>
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/ggonpereira/csgo-map-spots-quiz/main/public/img/demo/demo_index.jpg" width="90%" alt="CS:GO Quiz Index"/>
+   <img src="https://raw.githubusercontent.com/ggonpereira/csgo-map-spots-quiz/main/public/img/demo/demo_index.jpg" height="241.31px" width="45%" alt="CS:GO Quiz Index"/>
+   <img src="https://i.postimg.cc/W3zYMqs0/demo.gif" width="45%" alt="CS:GO Quiz Demo Gif"/>
 </p>
 
 ---
