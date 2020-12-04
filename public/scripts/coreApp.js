@@ -328,7 +328,7 @@ function runApp() {
 
 function verifyInput() {
   if (inputArea.value != "") {
-    if (inputArea.value == actualPosition.posicao) {
+    if (inputArea.value.toLowerCase() == actualPosition.posicao) {
       // if the answer is correct... +1 point
       points++;
       localStorage.setItem("points", points);
