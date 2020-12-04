@@ -5,36 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Divirta-se!</title>
 
-    <link
-      rel="stylesheet"
-      href="https://ggonpereira.github.io/csgo-map-spots-quiz/public/css/main.css"
-    />
+    <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Poppins:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="./public/css/gamePage.css">
+    <link rel="stylesheet" href="./public/css/responsive.css">
   </head>
   <body>
     <div class="container">
       <main class="content">
         <div class="top-infos">
           <div class="health-points">
-            <img
-              src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/img/full_heart.png"
-            />
-            <img
-              src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/img/full_heart.png"
-            />
-            <img
-              src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/img/full_heart.png"
-            />
+            <img class="h1" src="./public/img/full_heart.png" alt="Pontos de vida"/>
+            <img class="h2" src="./public/img/full_heart.png" alt="Pontos de vida"/>
+            <img class="h3" src="./public/img/full_heart.png" alt="Pontos de vida"/>
           </div>
           <div class="time-remaining">
-            <h3>Restam <span class="timeLeft">14</span> segundos</h3>
+            <h3>Restam <span class="timeLeft">&#8205 &#8205 &#8205 &#8205</span> segundos</h3>
           </div>
         </div>
-        <img class="quizImg positionName" src="" />
+        <img class="quizImg positionName" src="" alt="Nome da posição" />
         <div class="input-area">
           <h2>Digite o nome dessa posição</h2>
           <div class="insert-position-area">
@@ -44,7 +38,6 @@
               maxlength="50"
               placeholder=""
             />
-            <em class="fas fa-lightbulb hint" onclick="getHint();"></em>
           </div>
         </div>
 
@@ -59,6 +52,10 @@
               src="https://simpleicons.org/icons/github.svg"
               alt="GitHub"
               title="Visite meu GitHub!"
+              style="
+                filter: invert(11%) sepia(1%) saturate(0%) hue-rotate(48deg)
+                  brightness(98%) contrast(104%);
+              "
             />
           </a>
           <a
@@ -70,6 +67,11 @@
             <img
               src="https://simpleicons.org/icons/linkedin.svg"
               alt="LinkedIn"
+              title="Visite meu LinkedIn!"
+              style="
+                filter: invert(26%) sepia(94%) saturate(1898%)
+                  hue-rotate(180deg) brightness(92%) contrast(104%);
+              "
             />
           </a>
         </div>
@@ -81,6 +83,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/scripts/script.js"></script>
+    <script src="./public/scripts/coreApp.js"></script>
   </body>
 </html>

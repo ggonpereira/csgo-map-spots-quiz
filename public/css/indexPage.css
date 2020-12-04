@@ -1,0 +1,20 @@
+.selects-area {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+}
+
+.selects-area select {
+  width: 50%;
+  height: 40px;
+  font: 500 1.4rem/1.4 "Roboto", sans-serif;
+
+  border: 1 solid #808080;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.selects-area select:first-child {
+  margin-right: 10px;
+}

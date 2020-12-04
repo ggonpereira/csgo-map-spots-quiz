@@ -5,21 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Nome dos Lugares CS:GO</title>
 
-    <link
-      rel="stylesheet"
-      href="https://ggonpereira.github.io/csgo-map-spots-quiz/public/css/main.css"
-    />
+    <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Poppins:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./public/css/indexPage.css" />
+    <link rel="stylesheet" href="./public/css/responsive.css" />
   </head>
   <body>
     <div class="container">
       <main class="content">
         <img
-          src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/img/logo.png"
+          src="./public/img/logo.png"
           alt="CS:GO Spots Quiz"
           class="quizImg"
         />
@@ -28,8 +27,9 @@
             <option value="" disabled selected>Selecione um mapa</option>
             <option value="0">Dust II</option>
             <option value="1">Mirage</option>
-            <option value="2">Cache</option>
-            <!-- <option value="...">___</option> -->
+            <option value="2">Overpass</option>
+            <option value="3">Train</option>
+            <option value="4">Inferno</option>
           </select>
           <select name="diffSelector" id="diffSelector">
             <option value="" disabled selected>
@@ -52,6 +52,10 @@
               src="https://simpleicons.org/icons/github.svg"
               alt="GitHub"
               title="Visite meu GitHub!"
+              style="
+                filter: invert(11%) sepia(1%) saturate(0%) hue-rotate(48deg)
+                  brightness(98%) contrast(104%);
+              "
             />
           </a>
           <a
@@ -59,6 +63,10 @@
             target="_blank"
             rel="noopener"
             title="Visite meu LinkedIn!"
+            style="
+              filter: invert(26%) sepia(94%) saturate(1898%) hue-rotate(180deg)
+                brightness(92%) contrast(104%);
+            "
           >
             <img
               src="https://simpleicons.org/icons/linkedin.svg"
@@ -69,11 +77,7 @@
       </main>
     </div>
 
-    <script
-      src="https://ggonpereira.github.io/csgo-map-spots-quiz/public/scripts/getValues.js"
-      defer
-    ></script>
+    <script src="./public/scripts/getValues.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <!-- <script src="./public/scripts/script.js" defer></script> -->
   </body>
 </html>

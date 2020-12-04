@@ -43,27 +43,6 @@ h2 {
   width: 80%;
 }
 
-.selects-area {
-  display: flex;
-  justify-content: space-between;
-
-  margin-top: 15px;
-}
-
-.selects-area select {
-  width: 50%;
-  height: 40px;
-  font: 500 1.4rem/1.4 "Roboto", sans-serif;
-
-  border: 1 solid #808080;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.selects-area select:first-child {
-  margin-right: 10px;
-}
-
 .playButton,
 .verifyInput {
   width: 100%;
@@ -110,80 +89,12 @@ h2 {
   fill: red;
 }
 
-.top-infos {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.time-remaining h3 {
-  font: 500 2rem/1.4 "Roboto", sans-serif;
-  color: #fff;
-}
-
-img.positionName {
-  max-height: 400px;
-  min-height: 400px;
-  max-width: 550px;
-  min-width: 550px;
-}
-
 .totalPoints {
   text-align: center;
   color: #fff;
 }
 
-.input-area h2 {
-  font: 500 4rem/1.4 "Roboto", sans-serif;
-  color: #fff;
-  text-align: center;
-
-  text-shadow: #2ca530;
-}
-
-.insertPositionName {
-  display: inline-block;
-
-  width: 85%;
-  height: 40px;
-  font: 500 1.4rem/1.4 "Roboto", sans-serif;
-
-  border: none;
-  padding: 10px;
-  margin-top: 15px;
-  border-radius: 5px;
-}
-
-.insert-position-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.hint {
-  display: inline-block;
-
-  cursor: pointer;
-
-  background-color: #9efd04;
-  width: 14%;
-  height: 40px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font: 500 2rem "Roboto", sans-serif;
-
-  border: none;
-  padding: 10px;
-  /* margin-top: 15px; */
-  border-radius: 5px;
-}
-
-.hint:hover {
-  transition: 0.2s;
-  background-color: #89df00;
-}
+/* Sweet Alert */
 
 #swal2-content {
   font: 500 2.4rem/1.4 "Roboto", sans-serif !important;

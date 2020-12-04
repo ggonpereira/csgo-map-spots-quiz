@@ -1,10 +1,11 @@
-const selectElementMap = document.querySelector("#mapSelector");
-const selectElementDiff = document.querySelector("#diffSelector");
-const selectsArea = document.querySelector(".selects-area");
 const startButton = document.querySelector(".playButton");
 startButton.addEventListener("click", getInfoValues);
 
 function getInfoValues() {
+  const selectsArea = document.querySelector(".selects-area");
+  const selectElementMap = document.querySelector("#mapSelector");
+  const selectElementDiff = document.querySelector("#diffSelector");
+
   valueSelectedMap =
     selectElementMap.options[selectElementMap.selectedIndex].value;
   valueSelectedDiff =

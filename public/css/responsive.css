@@ -1,0 +1,74 @@
+@media (max-width: 625px) {
+  main.content {
+    width: 90%;
+  }
+
+  .selects-area {
+    flex-direction: column;
+  }
+
+  .selects-area select:first-child {
+    margin: 0 0 10px 0;
+  }
+
+  .selects-area select {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .selects-area select option {
+    width: 50%;
+  }
+
+  .input-area h2,
+  h2.totalPoints {
+    font-size: 3.5rem;
+  }
+
+  img.positionName {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 548px) {
+  .input-area h2,
+  h2.totalPoints {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 436px) {
+  .input-area h2,
+  h2.totalPoints {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 377px) {
+  .top-infos {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .input-area h2,
+  h2.totalPoints {
+    font-size: 1.8rem;
+  }
+
+  .input-area h2 {
+    margin-top: 10px;
+  }
+
+  button.playButton {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 270px) {
+  button.playButton {
+    font-size: 1rem;
+  }
+}
